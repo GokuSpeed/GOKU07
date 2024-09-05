@@ -17,7 +17,7 @@ admin_id = ["7493374905"]
 USER_FILE = "mrstart2468"
 
 # File to store command logs
-LOG_FILE = "log.txt"
+LOG_FILE = "mrstart2468"
 
 # Function to read user IDs from the file
 def read_users():
@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy."
+        response = "You have not purchased yet purchase now from:- @mrstart2468"
 
     bot.reply_to(message, response)
 
